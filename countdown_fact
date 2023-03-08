@@ -1,0 +1,15 @@
+"""
+Week3Interactive to give user two choices
+first choice offers countdown from integer entered to 0
+second choice offers factorial of integer entered
+"""
+#define functions for countdown and factorial
+def countdown(range):
+    for i in range(integer, -1, -1):
+        print(i,end=' ')
+
+def fact(fact):
+    fact = 1
+    for i in range(1, integer+1):
+        fact = fact*i
+        print(fact,end=' ')
